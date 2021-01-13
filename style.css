@@ -1,0 +1,14 @@
+img {
+  border-radius: 50%;
+}
+table{
+  border: 1px solid black;
+  text-align:center;
+  border-collapse: collapse;
+}
+th td{
+  padding: 15px;
+}
+tr:nth-child(1) {
+ background-color: green;
+}
