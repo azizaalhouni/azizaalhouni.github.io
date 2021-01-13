@@ -11,7 +11,7 @@ body{
   font-style: italic;
   color: Green;
 }
-#name{
+.name{
   text-align: center;
 }
 strong{
