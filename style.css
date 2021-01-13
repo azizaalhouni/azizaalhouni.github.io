@@ -1,6 +1,10 @@
+body{
+  background-color: gray;
+}
 img {
   border-radius: 50%;
 }
+
 table{
   border: 1px solid black;
   text-align:center;
