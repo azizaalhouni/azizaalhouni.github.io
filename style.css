@@ -1,14 +1,19 @@
 body{
-  background-color: gray;
+
 }
 img {
   border-radius: 50%;
 }
-
+table{
+  width: 100%;
+}
 table, td {
   border: 1px solid black;
   text-align:center;
   border-collapse: collapse;
+}
+td{
+  padding: 15px;
 }
 
 tr:nth-child(1) {
