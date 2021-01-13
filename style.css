@@ -15,10 +15,9 @@ table, td {
 td{
   padding: 15px;
 }
-
-th {
- background-color: green;
-}
 tr:nth-child(odd) {
   background-color: #fff;
+}
+th {
+ background-color: green;
 }
