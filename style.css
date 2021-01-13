@@ -5,7 +5,7 @@ img {
   border-radius: 50%;
 }
 
-table, th, td {
+table, tr, td {
   border: 1px solid black;
   text-align:center;
   border-collapse: collapse;
