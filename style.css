@@ -2,7 +2,9 @@ strong{
 text-align: center;
 font-size:30px;
 }
-
+#AzizaPic{
+  display:block;
+}
 img {
   border-radius: 50%;
 }

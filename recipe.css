@@ -7,3 +7,21 @@
   font-weight: bold;
   text-decoration: underline;
 }
+.subTitle{
+  color:#A4A400;
+  background-color: #F0F0F0;
+  font-family:sans-serif
+  font-size:22pt;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.yellowPar{
+  background-color: yellow;
+  font-weight: italic;
+}
+em{
+  font-weight: bold & italic;
+}
+#lastP{
+text-decoration: underline;
+}
