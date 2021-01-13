@@ -11,7 +11,10 @@ body{
   font-style: italic;
   color: Green;
 }
-.name{
+#aboutMe{
+  text-align:center;
+}
+#name{
   text-align: center;
 }
 strong{
