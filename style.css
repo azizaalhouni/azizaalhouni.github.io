@@ -5,14 +5,14 @@ img {
   border-radius: 50%;
 }
 
-table{
+table, th, td {
   border: 1px solid black;
   text-align:center;
   border-collapse: collapse;
 }
-th td{
+th, td{
   padding: 15px;
-  border: 1px solid black;
+
 }
 tr:nth-child(1) {
  background-color: green;
