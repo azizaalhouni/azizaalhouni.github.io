@@ -1,0 +1,91 @@
+body{
+  background-image:url('./tmnt/background.png');
+  text-size: 8pt;
+  @font-family: Verdana;
+  margin:0;
+  padding:0;
+}
+#banner{
+  border-color:blue;
+  border-width: medium;
+  border-style: solid;
+  background-image:url('./tmnt/bannerbg.png');
+  background-repeat: repeat;
+}
+#movieName{
+  text-align:center;
+  font-size:24pt;
+  font-style:bold;
+  font-family:sans-serif;
+  text-shadow: 3px 3px #999999;
+}
+#overall{
+  width:800px;
+  margin: auto;
+  border-style:solid;
+  border-radius: 20px;
+  border-color:gray;
+  border-size: 4px;
+  overflow: auto;
+}
+#Ninja{
+  float:right;
+  size:auto;
+  display:inline;
+}
+#rotten{
+  width:550px;
+  border-color:gray;
+  border-style:solid;
+  background-image:url('./tmnt/rbg.png');
+}
+#percentage{
+  color:red;
+  font-size:48pt;
+  font-style: bold;
+}
+
+.column{
+  padding: 1em;
+  column-count:2;
+  column-gap: 1em;
+
+
+}
+ .review {
+  border-radius: 10px;
+  border-style:sold;
+  border-color:gray;
+  border-size: 4px;
+  background-color: #E8DC9B;
+  border-width:thick;
+  padding:8px;
+}
+nav{
+  float:right;
+  background-color:#A2B964;
+  width:250px;
+  font-family:sans-serif;
+  font-size:8pt;
+  text-align:left;
+}
+dt{
+ font-weight: bold;
+}
+#bar{
+  text-align:center;
+  background-color: #A2B964;
+  clear: right;
+}
+#right{
+  float:right;
+  width:25%;
+  background-color:#A2B964;
+}
+#left{
+  float:left;
+  width:75%;
+}
+#validation{
+  float:right;
+}

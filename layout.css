@@ -15,7 +15,7 @@ div{
   border-style:solid;
 }
 #sameSize{
-  border:5px;
+  border: 5px;
   border-bottom-style: dashed;
   border-bottom-color:blue;
   border-bottom: 2px ;
