@@ -1,12 +1,12 @@
 body{
 font-style:red;
 border-color:white;
-  background-image: url('./journal/background.gif');
+  background-image: url('background.gif');
 }
 section{
 
   border-color:white;
-  border-style:solid;
+
   overflow: auto;
 }
 div{
@@ -15,7 +15,7 @@ div{
   border-style:solid;
 }
 #sameSize{
-  border: 5px;
+  border-width: 5px;
   border-bottom-style: dashed;
   border-bottom-color:blue;
   border-bottom: 2px ;
@@ -41,12 +41,11 @@ div{
   border-radius: 15px ;
 }
 #green{
-  border-color:white;
+
   background-color:white;
   margin-left:10%;
   margin-right:10%;
-  border: solid 10px ;
-  border-style: solid;
+  border:0px solid #FFF;
 }
 img{
   float:right;
