@@ -1,5 +1,5 @@
 body{
-  background-image:url('./tmnt/background.png');
+  background-image:url('./skeleton_files/background.png');
   text-size: 8pt;
   @font-family: Verdana;
   margin:0;
@@ -9,7 +9,7 @@ body{
   border-color:blue;
   border-width: medium;
   border-style: solid;
-  background-image:url('./tmnt/bannerbg.png');
+  background-image:url('./skeleton_files/bannerbg.png');
   background-repeat: repeat;
 }
 #movieName{
@@ -33,16 +33,15 @@ body{
   size:auto;
   display:inline;
 }
-#rotten{
-  width:550px;
-  border-color:gray;
-  border-style:solid;
-  background-image:url('./tmnt/rbg.png');
-}
+
 #percentage{
   color:red;
   font-size:48pt;
   font-style: bold;
+  width:100%;
+  border-color:gray;
+  border-style:solid;
+  background-image:url('./skeleton_files/rbg.png');
 }
 
 .column{
