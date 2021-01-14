@@ -1,5 +1,5 @@
 body{
-  background-image:url('./skeleton_files/background.png');
+  background-image:url('./tmnt/background.png');
   text-size: 8pt;
   @font-family: Verdana;
   margin:0;
@@ -9,7 +9,7 @@ body{
   border-color:blue;
   border-width: medium;
   border-style: solid;
-  background-image:url('./skeleton_files/bannerbg.png');
+  background-image:url('./tmnt/bannerbg.png');
   background-repeat: repeat;
 }
 #movieName{
@@ -41,7 +41,7 @@ body{
   width:100%;
   border-color:gray;
   border-style:solid;
-  background-image:url('./skeleton_files/rbg.png');
+  background-image:url('./tmnt/rbg.png');
 }
 
 .column{
