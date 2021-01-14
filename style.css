@@ -3,14 +3,15 @@ text-align: center;
 font-size:30px;
 }
 #AzizaPic{
-  width:25px;
-  height:25px;
+
 }
 #myName{
   text-align: center;
 }
 img {
   border-radius: 50%;
+  width:200px;
+  height:300px;
 }
 table{
   width: 100%;
