@@ -1,0 +1,54 @@
+body{
+font-style:red;
+border-color:white;
+  background-image: url('./journal/background.gif');
+}
+section{
+
+  border-color:white;
+  border-style:solid;
+  overflow: auto;
+}
+div{
+
+  border:5px;
+  border-style:solid;
+}
+#sameSize{
+  border:5px;
+  border-bottom-style: dashed;
+  border-bottom-color:blue;
+  border-bottom: 2px ;
+}
+#fontsize{
+  font-size:14pt;
+}
+#red{
+  border: 0;
+  text-align:right;
+  background-color: #A8F0F0;
+}
+#orange{
+  border:0;
+}
+#blue{
+  background-color:#E8FBFB;
+  padding:5px;
+  margin-top:10px;
+  border-style: solid ;
+  border-width: 4px;
+  border-color:#C2E9E9;
+  border-radius: 15px ;
+}
+#green{
+  border-color:white;
+  background-color:white;
+  margin-left:10%;
+  margin-right:10%;
+  border: solid 10px ;
+  border-style: solid;
+}
+img{
+  float:right;
+
+}
