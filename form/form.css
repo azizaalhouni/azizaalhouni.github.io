@@ -10,9 +10,28 @@
 }
 .add{
   display: inline-block;
-  width:49%;
+  width:90%;
 }
 .add label {
   display: block !important;
-   width: 150% !important;
+   width: 50% !important;
  }
+ input[type=submit]{
+   padding:5px;
+   font-size:20px;
+   width:400px;
+   color:white;
+   background-color: blue;
+
+ }
+ .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.addres{
+  width: min-content;
+  column-count:3;
+  column-gap: 1em;
+}

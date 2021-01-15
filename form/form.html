@@ -5,48 +5,55 @@
 </head>
 <body>
   <div id="overall">
-<form action="" method="Get" enctype="text/plain">
-  <label for="fname">First name</label><br>
-  <input type="text" id="fname" size="50" ><br><br>
+<form action="/login" method="POST" enctype="text/plain">
+  <label for="fname" >First name</label><br>
+  <input type="text" id="fname" size="50" required><br><br>
   <label for="mName">Middle name(optional)</label><br>
   <input type="text" id="mName" size="50"><br><br>
-  <label for="lName">Last name</label><br>
-  <input type="text" id="lName" size="50" height="50"><br><br>
-  <label for="ssn" >SSN</label><br>
-  <input type="text" id="ssn" pattern="[0-9]{9}" size="50"><br><br>
-  <label for="cc">Credit Card</label><br>
-  <input type="text" id="cc" pattern="[0-9]{13,19}" size="50" ><br><br>
-  <label >Suffix (optional)</label><br>
-  <label for="address" >Residential address line 1</label><br>
-  <input type="text" id="address" size="50"><br><br>
 
+  <label for="lName">Last name</label><br>
+  <input type="text" id="lName" size="50" height="50" required><br><br>
+
+  <label for="ssn" >SSN</label><br>
+  <input type="text" id="ssn" pattern="[0-9]{9}" size="50" required><br><br>
+
+  <label for="cc">Credit Card</label><br>
+  <input type="text" id="cc" pattern="[0-9]{13,19}" size="50" required><br><br>
+
+  <label >Suffix (optional)</label><br><br>
+  <label for="address" >Residential address line 1</label><br>
+  <input type="text" id="address" size="50" required><br><br>
+<div class="addres">
   <label for="city" >City</label>
-  <input type="text" id = "city" class="add" >
+  <input type="text" id = "city" class="add" size="10" required >
   <label for="States">State</label>
-  <input list="state" id="states" class="add" />
-<datalist id="state">
+  <input list="state" id="states" size="10" class="add" required >
+<datalist id="state" size="15">
     <option value="IA">
     <option value="WA">
     <option value="AL">
     <option value="AZ">
     <option value="FL">
 </datalist>
-
   <label for="zip" class="add">ZIP code</label>
-  <input type="text" id="zip" pattern="[0-9]{5}"><br><br>
+  <input type="text" id="zip" pattern="[0-9]{5}" size="10" required>
+  </div>
+<br><br>
   <label for="phone">Primary phone number</label><br>
-  <input type="text" id="phone" pattern="[0-9]{10}" size="50"><br><br>
-  <input type="radio" name="phone" id="Mphone" >
-  <label for="Mphone">Mobile phone</label>
+  <input type="text" id="phone"  size="50" pattern="\(?\d{3}\)?\s?\d{3}-?\d{4}"required><br><br>
+
+  <input type="radio" name="phone" id="Mphone" checked >
+  <label for="Mphone" >Mobile phone</label>
   <input type="radio" name="phone" id="Hphone" >
   <label for="Hphone">Home phone</label><br><br>
   <label for="email">Email address</label><br>
-  <input type="text" id="email" size="50"><br><br>
+  <input type="text" id="email" size="50" required><br><br>
   <label for="birth">Date of birth</label><br>
-  <input type="date" id="birth" pattern=""><br><br>
-  <label for="birth">Date of birth</label><br>
-  <input type="text" id="birth" pattern="\d[1-12]{1,2}/\d[1-31]{1,2}/\d[1900-2000]{4}" required><br>
-  <input type="submit" value="submit">
+  <input type="date" id="birth" min="1900-01-01" max="2000-12-31" required><br><br>
+
+<div class="center">
+  <input type="submit" value="Submit">
+  </div>
   </form>
 </div>
 </body>
