@@ -1,0 +1,18 @@
+#overall{
+  border-style:solid;
+  border:5px;
+  border-color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#fname{
+  size:70;
+}
+.add{
+  display: inline-block;
+  width:49%;
+}
+.add label {
+  display: block !important;
+   width: 150% !important;
+ }
