@@ -1,15 +1,13 @@
 function myFunction(){
-    var myVar = setInterval(myTimer, 500);
-
-    //var text = document.getElementById("textSize").style.fontSize;
-
-    //document.getElementById("textSize").style.fontSize = parseInt(text)+ 10 + "pt";
-    //text.style.fontSize = "24pt";
-
+    var text = document.getElementById("textSize").style.fontSize;
+    document.getElementById("textSize").style.fontSize = "12pt";
+    //setTimeout(myTimer,1000);
+    setInterval(myTimer,5000);
+}
     function myTimer() {
         var text = document.getElementById("textSize").style.fontSize;
-  document.getElementById("textSize").style.fontSize = parseInt(text)+ 10 + "pt";
-}
+  document.getElementById("textSize").style.fontSize = parseInt(text)+ 2 + "pt";
+
 }
 function fontStyle(){
     var text = document.getElementById("textSize");
