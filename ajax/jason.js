@@ -1,7 +1,7 @@
 async function createUser(){
     let user = {
-        name = 'John',
-        job = 'coder'
+        name : 'John',
+        job :'coder'
     };
     let response = await fetch('http://reqres.in/api/users/',{
         method: 'POST',
